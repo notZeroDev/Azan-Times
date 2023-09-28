@@ -1,8 +1,8 @@
-import iso3166 as iso
-import datetime
 import tkinter as tk
 import customtkinter as ctk
 import ttkbootstrap as ttk
+import iso3166 as iso
+import datetime
 from script import *
 prays = []
 # prevent button spam
@@ -100,7 +100,7 @@ class Time(ttk.Frame):
 label = ctk.CTkLabel(top_frame, text = 'Pray Times', font=('calibry', 30))
 country_search = ttk.Combobox(search_frame, values=countries)
 city_search = ctk.CTkEntry(search_frame, placeholder_text='type city for search...')
-button = ttk.Button(search_frame, text = 'get data', command=button_comand)
+button = ttk.Button(search_frame, text = 'search', command=button_comand)
 country_search.set('Egypt')
 error_label = ttk.Label(timetable_frame, bootstyle= 'danger', text= 'Input Error...', font = 'calibry 25 bold')
 # combobox = ctk.CTkComboBox(window, values=["option 1", "option 2"])
