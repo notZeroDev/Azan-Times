@@ -1,6 +1,3 @@
-# make the time colerful
-# add event to cheack if the input is correct
-# add placeholder to timetable
 import iso3166 as iso
 import datetime
 import tkinter as tk
