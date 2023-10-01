@@ -66,8 +66,7 @@ def timetable_open():
 window = ttk.Window(themename='vapor')
 window.title('مواقيت الصلاة')
 window.geometry('900x700+500+200')
-window.minsize(600, 550)
-
+window.resizable(False, False)
 
 # vars
 city = ttk.StringVar(value=None)
